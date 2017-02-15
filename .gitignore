@@ -1,0 +1,4 @@
+*.html
+*.log
+*.tpl
+config.php

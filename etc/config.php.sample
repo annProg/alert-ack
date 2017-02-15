@@ -1,0 +1,22 @@
+<?php
+/**
+ * Usage:
+ * File Name: config.php
+ * Author: annhe  
+ * Mail: i@annhe.net
+ * Created Time: 2017-02-14 17:06:32
+ **/
+
+$config = array();
+
+// zabbix api
+$config['zabbix'][0]['url'] = "http://monitor.cn/api_jsonrpc.php";
+$config['zabbix'][0]['user'] = "user";
+$config['zabbix'][0]['password'] = 'passwd';
+
+// another zabbix api
+$config['zabbix'][1]['url'] = "http://monitor.com/api_jsonrpc.php";
+$config['zabbix'][1]['user'] = "user";
+$config['zabbix'][1]['password'] = 'passwd';
+
+$config['sk'] = "sk298398kmfdskmklmvkldsmkljfd";
